@@ -17,6 +17,7 @@
 		FDD777A5260713AC002B6A34 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD777A4260713AC002B6A34 /* CardView.swift */; };
 		FDD777AD260720DF002B6A34 /* FavoritesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD777AC260720DF002B6A34 /* FavoritesData.swift */; };
 		FDD777B826072EC5002B6A34 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD777B726072EC5002B6A34 /* SafariView.swift */; };
+		FDD777CB26074B61002B6A34 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD777CA26074B61002B6A34 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FDD777A4260713AC002B6A34 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FDD777AC260720DF002B6A34 /* FavoritesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesData.swift; sourceTree = "<group>"; };
 		FDD777B726072EC5002B6A34 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		FDD777CA26074B61002B6A34 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				FDD77764260708A5002B6A34 /* CardUISample_SwiftUIApp.swift */,
 				FDD77766260708A5002B6A34 /* ContentView.swift */,
+				FDD777CA26074B61002B6A34 /* HeaderView.swift */,
 				FDD777A4260713AC002B6A34 /* CardView.swift */,
 				FDD7779C26070BFE002B6A34 /* WebView.swift */,
 				FDD777B726072EC5002B6A34 /* SafariView.swift */,
@@ -277,6 +280,7 @@
 				FDD777A5260713AC002B6A34 /* CardView.swift in Sources */,
 				FDD777B826072EC5002B6A34 /* SafariView.swift in Sources */,
 				FDD77765260708A5002B6A34 /* CardUISample_SwiftUIApp.swift in Sources */,
+				FDD777CB26074B61002B6A34 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
