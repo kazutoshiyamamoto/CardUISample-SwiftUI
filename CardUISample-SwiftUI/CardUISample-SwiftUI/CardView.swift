@@ -15,6 +15,15 @@ struct CardView: View {
         ZStack(alignment: .leading) {
             WebView(urlString: urlString)
                 .disabled(true)
+            VStack {
+                Text(title)
+                    .foregroundColor(.white)
+                    .font(.largeTitle)
+                    .bold()
+                    .shadow(radius: 4.0)
+                Spacer()
+            }
+            .padding()
         }
     }
 }
