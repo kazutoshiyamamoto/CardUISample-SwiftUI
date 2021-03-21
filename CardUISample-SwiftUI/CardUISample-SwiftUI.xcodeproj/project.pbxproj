@@ -14,6 +14,7 @@
 		FDD77777260708AB002B6A34 /* CardUISample_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD77776260708AB002B6A34 /* CardUISample_SwiftUITests.swift */; };
 		FDD77782260708AC002B6A34 /* CardUISample_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD77781260708AC002B6A34 /* CardUISample_SwiftUIUITests.swift */; };
 		FDD7779D26070BFE002B6A34 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD7779C26070BFE002B6A34 /* WebView.swift */; };
+		FDD777A5260713AC002B6A34 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD777A4260713AC002B6A34 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FDD77781260708AC002B6A34 /* CardUISample_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUISample_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		FDD77783260708AC002B6A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDD7779C26070BFE002B6A34 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		FDD777A4260713AC002B6A34 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				FDD77764260708A5002B6A34 /* CardUISample_SwiftUIApp.swift */,
 				FDD77766260708A5002B6A34 /* ContentView.swift */,
+				FDD777A4260713AC002B6A34 /* CardView.swift */,
 				FDD7779C26070BFE002B6A34 /* WebView.swift */,
 				FDD77768260708AB002B6A34 /* Assets.xcassets */,
 				FDD7776D260708AB002B6A34 /* Info.plist */,
@@ -264,6 +267,7 @@
 			files = (
 				FDD7779D26070BFE002B6A34 /* WebView.swift in Sources */,
 				FDD77767260708A5002B6A34 /* ContentView.swift in Sources */,
+				FDD777A5260713AC002B6A34 /* CardView.swift in Sources */,
 				FDD77765260708A5002B6A34 /* CardUISample_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

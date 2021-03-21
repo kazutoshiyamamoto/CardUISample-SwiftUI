@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct CardView: View {
+    var title: String
+    var urlString: String
+    
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
