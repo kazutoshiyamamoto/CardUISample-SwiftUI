@@ -9,6 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        VStack(alignment: .leading) {
+            Text("My Favorites")
+                .font(.largeTitle)
+                .bold()
+                .padding([.leading, .trailing, .top], 20)
+            Spacer()
+        }
+        
     }
 }
 
