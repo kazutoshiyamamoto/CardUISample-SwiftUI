@@ -13,10 +13,8 @@ struct ContentView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text("My Favorites")
-                .font(.largeTitle)
-                .bold()
-                .padding([.leading, .trailing, .top], 30)
+            HeaderView()
+                .padding([.leading, .trailing, .top], 35)
             
             List(favorites) { item in
                 CardView(favorite: item)
