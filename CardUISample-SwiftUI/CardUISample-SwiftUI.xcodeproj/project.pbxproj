@@ -13,6 +13,7 @@
 		FDD7776C260708AB002B6A34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD7776B260708AB002B6A34 /* Preview Assets.xcassets */; };
 		FDD77777260708AB002B6A34 /* CardUISample_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD77776260708AB002B6A34 /* CardUISample_SwiftUITests.swift */; };
 		FDD77782260708AC002B6A34 /* CardUISample_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD77781260708AC002B6A34 /* CardUISample_SwiftUIUITests.swift */; };
+		FDD7779D26070BFE002B6A34 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD7779C26070BFE002B6A34 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		FDD7777D260708AB002B6A34 /* CardUISample-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CardUISample-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD77781260708AC002B6A34 /* CardUISample_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUISample_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		FDD77783260708AC002B6A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD7779C26070BFE002B6A34 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				FDD77764260708A5002B6A34 /* CardUISample_SwiftUIApp.swift */,
 				FDD77766260708A5002B6A34 /* ContentView.swift */,
+				FDD7779C26070BFE002B6A34 /* WebView.swift */,
 				FDD77768260708AB002B6A34 /* Assets.xcassets */,
 				FDD7776D260708AB002B6A34 /* Info.plist */,
 				FDD7776A260708AB002B6A34 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDD7779D26070BFE002B6A34 /* WebView.swift in Sources */,
 				FDD77767260708A5002B6A34 /* ContentView.swift in Sources */,
 				FDD77765260708A5002B6A34 /* CardUISample_SwiftUIApp.swift in Sources */,
 			);
