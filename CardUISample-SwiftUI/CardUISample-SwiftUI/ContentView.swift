@@ -27,7 +27,7 @@ struct ContentView: View {
             // TODO:if文使わないとURLが渡される前にSafariViewをインスタンス化しようとしてクラッシュする
             if selectedUrlString != "" {
                 EmptyView()
-                    .sheet(isPresented: $isActive) {
+                    .fullScreenCover(isPresented: $isActive) {
                         SafariView(urlString: selectedUrlString)
                     }
             }
