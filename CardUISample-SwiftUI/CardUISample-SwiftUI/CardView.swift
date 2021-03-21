@@ -8,12 +8,11 @@
 import SwiftUI
 
 struct CardView: View {
-    var title: String
-    var urlString: String
+    var favorite: Favorite
     
     var body: some View {
         ZStack(alignment: .leading) {
-            WebView(urlString: urlString)
+            WebView(urlString: favorite.urlString)
                 .disabled(true)
             LinearGradient(
                 gradient: Gradient(colors: [.clear, Color.black.opacity(0.2)]),
@@ -22,7 +21,7 @@ struct CardView: View {
             )
             
             VStack {
-                Text(title)
+                Text(favorite.title)
                     .foregroundColor(.white)
                     .font(.largeTitle)
                     .bold()
@@ -40,6 +39,6 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView(title: "タイトル", urlString: "")
+        CardView(favorite: favorites[0])
     }
 }
