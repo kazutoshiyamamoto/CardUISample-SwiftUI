@@ -16,6 +16,7 @@
 		FDD7779D26070BFE002B6A34 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD7779C26070BFE002B6A34 /* WebView.swift */; };
 		FDD777A5260713AC002B6A34 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD777A4260713AC002B6A34 /* CardView.swift */; };
 		FDD777AD260720DF002B6A34 /* FavoritesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD777AC260720DF002B6A34 /* FavoritesData.swift */; };
+		FDD777B826072EC5002B6A34 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD777B726072EC5002B6A34 /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FDD7779C26070BFE002B6A34 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		FDD777A4260713AC002B6A34 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FDD777AC260720DF002B6A34 /* FavoritesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesData.swift; sourceTree = "<group>"; };
+		FDD777B726072EC5002B6A34 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				FDD77766260708A5002B6A34 /* ContentView.swift */,
 				FDD777A4260713AC002B6A34 /* CardView.swift */,
 				FDD7779C26070BFE002B6A34 /* WebView.swift */,
+				FDD777B726072EC5002B6A34 /* SafariView.swift */,
 				FDD777AC260720DF002B6A34 /* FavoritesData.swift */,
 				FDD77768260708AB002B6A34 /* Assets.xcassets */,
 				FDD7776D260708AB002B6A34 /* Info.plist */,
@@ -272,6 +275,7 @@
 				FDD7779D26070BFE002B6A34 /* WebView.swift in Sources */,
 				FDD77767260708A5002B6A34 /* ContentView.swift in Sources */,
 				FDD777A5260713AC002B6A34 /* CardView.swift in Sources */,
+				FDD777B826072EC5002B6A34 /* SafariView.swift in Sources */,
 				FDD77765260708A5002B6A34 /* CardUISample_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
