@@ -23,7 +23,7 @@ struct CardView: View {
             VStack {
                 Text(favorite.title)
                     .foregroundColor(.white)
-                    .font(.largeTitle)
+                    .font(.title)
                     .bold()
                     .shadow(radius: 4.0)
                 Spacer()
