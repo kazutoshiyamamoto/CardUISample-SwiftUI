@@ -17,14 +17,17 @@ struct ContentView: View {
                 HeaderView()
                     .padding([.leading, .trailing, .top], 35)
                 
-                List(favorites) { item in
-                    CardView(favorite: item)
-                        .frame(height: geometry.size.height / 1.2)
-                        .onTapGesture {
-                            selectedUrlString = item.urlString
-                            isActive.toggle()
-                        }
+                ScrollView(.vertical) {
+                    ForEach(favorites) { item in
+                        CardView(favorite: item)
+                            .frame(height: geometry.size.height / 1.2)
+                            .onTapGesture {
+                                selectedUrlString = item.urlString
+                                isActive.toggle()
+                            }
+                    }
                 }
+                .padding(15)
                 
                 // TODO:if文使わないとURLが渡される前にSafariViewをインスタンス化しようとしてクラッシュする
                 if selectedUrlString != "" {
