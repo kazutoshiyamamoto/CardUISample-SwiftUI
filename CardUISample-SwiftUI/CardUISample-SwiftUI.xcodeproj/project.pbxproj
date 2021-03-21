@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDD77765260708A5002B6A34 /* CardUISample_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD77764260708A5002B6A34 /* CardUISample_SwiftUIApp.swift */; };
+		FDD77767260708A5002B6A34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD77766260708A5002B6A34 /* ContentView.swift */; };
+		FDD77769260708AB002B6A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD77768260708AB002B6A34 /* Assets.xcassets */; };
+		FDD7776C260708AB002B6A34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD7776B260708AB002B6A34 /* Preview Assets.xcassets */; };
+		FDD77777260708AB002B6A34 /* CardUISample_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD77776260708AB002B6A34 /* CardUISample_SwiftUITests.swift */; };
+		FDD77782260708AC002B6A34 /* CardUISample_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD77781260708AC002B6A34 /* CardUISample_SwiftUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDD77773260708AB002B6A34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDD77759260708A5002B6A34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD77760260708A5002B6A34;
+			remoteInfo = "CardUISample-SwiftUI";
+		};
+		FDD7777E260708AC002B6A34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDD77759260708A5002B6A34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD77760260708A5002B6A34;
+			remoteInfo = "CardUISample-SwiftUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDD77761260708A5002B6A34 /* CardUISample-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CardUISample-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD77764260708A5002B6A34 /* CardUISample_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUISample_SwiftUIApp.swift; sourceTree = "<group>"; };
+		FDD77766260708A5002B6A34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDD77768260708AB002B6A34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDD7776B260708AB002B6A34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDD7776D260708AB002B6A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD77772260708AB002B6A34 /* CardUISample-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CardUISample-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD77776260708AB002B6A34 /* CardUISample_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUISample_SwiftUITests.swift; sourceTree = "<group>"; };
+		FDD77778260708AB002B6A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD7777D260708AB002B6A34 /* CardUISample-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CardUISample-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD77781260708AC002B6A34 /* CardUISample_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUISample_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		FDD77783260708AC002B6A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDD7775E260708A5002B6A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD7776F260708AB002B6A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD7777A260708AB002B6A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDD77758260708A5002B6A34 = {
+			isa = PBXGroup;
+			children = (
+				FDD77763260708A5002B6A34 /* CardUISample-SwiftUI */,
+				FDD77775260708AB002B6A34 /* CardUISample-SwiftUITests */,
+				FDD77780260708AC002B6A34 /* CardUISample-SwiftUIUITests */,
+				FDD77762260708A5002B6A34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD77762260708A5002B6A34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD77761260708A5002B6A34 /* CardUISample-SwiftUI.app */,
+				FDD77772260708AB002B6A34 /* CardUISample-SwiftUITests.xctest */,
+				FDD7777D260708AB002B6A34 /* CardUISample-SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD77763260708A5002B6A34 /* CardUISample-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				FDD77764260708A5002B6A34 /* CardUISample_SwiftUIApp.swift */,
+				FDD77766260708A5002B6A34 /* ContentView.swift */,
+				FDD77768260708AB002B6A34 /* Assets.xcassets */,
+				FDD7776D260708AB002B6A34 /* Info.plist */,
+				FDD7776A260708AB002B6A34 /* Preview Content */,
+			);
+			path = "CardUISample-SwiftUI";
+			sourceTree = "<group>";
+		};
+		FDD7776A260708AB002B6A34 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDD7776B260708AB002B6A34 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDD77775260708AB002B6A34 /* CardUISample-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDD77776260708AB002B6A34 /* CardUISample_SwiftUITests.swift */,
+				FDD77778260708AB002B6A34 /* Info.plist */,
+			);
+			path = "CardUISample-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		FDD77780260708AC002B6A34 /* CardUISample-SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDD77781260708AC002B6A34 /* CardUISample_SwiftUIUITests.swift */,
+				FDD77783260708AC002B6A34 /* Info.plist */,
+			);
+			path = "CardUISample-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDD77760260708A5002B6A34 /* CardUISample-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD77786260708AC002B6A34 /* Build configuration list for PBXNativeTarget "CardUISample-SwiftUI" */;
+			buildPhases = (
+				FDD7775D260708A5002B6A34 /* Sources */,
+				FDD7775E260708A5002B6A34 /* Frameworks */,
+				FDD7775F260708A5002B6A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CardUISample-SwiftUI";
+			productName = "CardUISample-SwiftUI";
+			productReference = FDD77761260708A5002B6A34 /* CardUISample-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDD77771260708AB002B6A34 /* CardUISample-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD77789260708AC002B6A34 /* Build configuration list for PBXNativeTarget "CardUISample-SwiftUITests" */;
+			buildPhases = (
+				FDD7776E260708AB002B6A34 /* Sources */,
+				FDD7776F260708AB002B6A34 /* Frameworks */,
+				FDD77770260708AB002B6A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDD77774260708AB002B6A34 /* PBXTargetDependency */,
+			);
+			name = "CardUISample-SwiftUITests";
+			productName = "CardUISample-SwiftUITests";
+			productReference = FDD77772260708AB002B6A34 /* CardUISample-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDD7777C260708AB002B6A34 /* CardUISample-SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD7778C260708AC002B6A34 /* Build configuration list for PBXNativeTarget "CardUISample-SwiftUIUITests" */;
+			buildPhases = (
+				FDD77779260708AB002B6A34 /* Sources */,
+				FDD7777A260708AB002B6A34 /* Frameworks */,
+				FDD7777B260708AB002B6A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDD7777F260708AC002B6A34 /* PBXTargetDependency */,
+			);
+			name = "CardUISample-SwiftUIUITests";
+			productName = "CardUISample-SwiftUIUITests";
+			productReference = FDD7777D260708AB002B6A34 /* CardUISample-SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD77759260708A5002B6A34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FDD77760260708A5002B6A34 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					FDD77771260708AB002B6A34 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FDD77760260708A5002B6A34;
+					};
+					FDD7777C260708AB002B6A34 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FDD77760260708A5002B6A34;
+					};
+				};
+			};
+			buildConfigurationList = FDD7775C260708A5002B6A34 /* Build configuration list for PBXProject "CardUISample-SwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDD77758260708A5002B6A34;
+			productRefGroup = FDD77762260708A5002B6A34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD77760260708A5002B6A34 /* CardUISample-SwiftUI */,
+				FDD77771260708AB002B6A34 /* CardUISample-SwiftUITests */,
+				FDD7777C260708AB002B6A34 /* CardUISample-SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDD7775F260708A5002B6A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD7776C260708AB002B6A34 /* Preview Assets.xcassets in Resources */,
+				FDD77769260708AB002B6A34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD77770260708AB002B6A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD7777B260708AB002B6A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDD7775D260708A5002B6A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD77767260708A5002B6A34 /* ContentView.swift in Sources */,
+				FDD77765260708A5002B6A34 /* CardUISample_SwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD7776E260708AB002B6A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD77777260708AB002B6A34 /* CardUISample_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD77779260708AB002B6A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD77782260708AC002B6A34 /* CardUISample_SwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDD77774260708AB002B6A34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDD77760260708A5002B6A34 /* CardUISample-SwiftUI */;
+			targetProxy = FDD77773260708AB002B6A34 /* PBXContainerItemProxy */;
+		};
+		FDD7777F260708AC002B6A34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDD77760260708A5002B6A34 /* CardUISample-SwiftUI */;
+			targetProxy = FDD7777E260708AC002B6A34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDD77784260708AC002B6A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDD77785260708AC002B6A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDD77787260708AC002B6A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CardUISample-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = QWY8CP674Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "CardUISample-SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-beginners2.CardUISample-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDD77788260708AC002B6A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CardUISample-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = QWY8CP674Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "CardUISample-SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-beginners2.CardUISample-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDD7778A260708AC002B6A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWY8CP674Q;
+				INFOPLIST_FILE = "CardUISample-SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-beginners2.CardUISample-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardUISample-SwiftUI.app/CardUISample-SwiftUI";
+			};
+			name = Debug;
+		};
+		FDD7778B260708AC002B6A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWY8CP674Q;
+				INFOPLIST_FILE = "CardUISample-SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-beginners2.CardUISample-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardUISample-SwiftUI.app/CardUISample-SwiftUI";
+			};
+			name = Release;
+		};
+		FDD7778D260708AC002B6A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWY8CP674Q;
+				INFOPLIST_FILE = "CardUISample-SwiftUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-beginners2.CardUISample-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CardUISample-SwiftUI";
+			};
+			name = Debug;
+		};
+		FDD7778E260708AC002B6A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWY8CP674Q;
+				INFOPLIST_FILE = "CardUISample-SwiftUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-beginners2.CardUISample-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CardUISample-SwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDD7775C260708A5002B6A34 /* Build configuration list for PBXProject "CardUISample-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD77784260708AC002B6A34 /* Debug */,
+				FDD77785260708AC002B6A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD77786260708AC002B6A34 /* Build configuration list for PBXNativeTarget "CardUISample-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD77787260708AC002B6A34 /* Debug */,
+				FDD77788260708AC002B6A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD77789260708AC002B6A34 /* Build configuration list for PBXNativeTarget "CardUISample-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD7778A260708AC002B6A34 /* Debug */,
+				FDD7778B260708AC002B6A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD7778C260708AC002B6A34 /* Build configuration list for PBXNativeTarget "CardUISample-SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD7778D260708AC002B6A34 /* Debug */,
+				FDD7778E260708AC002B6A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDD77759260708A5002B6A34 /* Project object */;
+}
