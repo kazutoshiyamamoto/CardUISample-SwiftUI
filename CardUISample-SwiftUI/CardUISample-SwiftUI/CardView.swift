@@ -14,6 +14,7 @@ struct CardView: View {
     var body: some View {
         ZStack(alignment: .leading) {
             WebView(urlString: urlString)
+                .disabled(true)
         }
     }
 }
