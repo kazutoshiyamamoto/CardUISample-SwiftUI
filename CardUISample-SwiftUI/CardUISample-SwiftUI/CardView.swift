@@ -15,6 +15,12 @@ struct CardView: View {
         ZStack(alignment: .leading) {
             WebView(urlString: urlString)
                 .disabled(true)
+            LinearGradient(
+                gradient: Gradient(colors: [.clear, Color.black.opacity(0.2)]),
+                startPoint: .bottom,
+                endPoint: .top
+            )
+            
             VStack {
                 Text(title)
                     .foregroundColor(.white)
