@@ -19,7 +19,7 @@ struct ContentView: View {
                 
                 List(favorites) { item in
                     CardView(favorite: item)
-                        .frame(height: geometry.size.height / 1.1)
+                        .frame(height: geometry.size.height / 1.2)
                         .onTapGesture {
                             selectedUrlString = item.urlString
                             isActive.toggle()
