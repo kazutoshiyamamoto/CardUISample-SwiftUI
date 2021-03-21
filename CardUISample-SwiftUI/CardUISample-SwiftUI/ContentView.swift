@@ -22,7 +22,6 @@ struct ContentView: View {
                         selectedUrlString = item.urlString
                         isActive.toggle()
                     }
-                    .padding([.leading, .trailing], 5)
             }
             
             // TODO:if文使わないとURLが渡される前にSafariViewをインスタンス化しようとしてクラッシュする
