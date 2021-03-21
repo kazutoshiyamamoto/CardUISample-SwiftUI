@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isActive = false
+    @State var selectedUrlString: String = ""
+    
     var body: some View {
         VStack(alignment: .leading) {
             Text("My Favorites")
@@ -17,12 +20,21 @@ struct ContentView: View {
             
             List(favorites) { item in
                 CardView(favorite: item)
+                    .onTapGesture {
+                        selectedUrlString = item.urlString
+                        isActive.toggle()
+                    }
                     .padding([.leading, .trailing], 5)
             }
             
-            Spacer()
+            // TODO:if文使わないとURLが渡される前にSafariViewをインスタンス化しようとしてクラッシュする
+            if selectedUrlString != "" {
+                EmptyView()
+                    .sheet(isPresented: $isActive) {
+                        SafariView(urlString: selectedUrlString)
+                    }
+            }
         }
-        
     }
 }
 
