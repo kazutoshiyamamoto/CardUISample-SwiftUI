@@ -12,24 +12,27 @@ struct ContentView: View {
     @State var selectedUrlString: String = ""
     
     var body: some View {
-        VStack(alignment: .leading) {
-            HeaderView()
-                .padding([.leading, .trailing, .top], 35)
-            
-            List(favorites) { item in
-                CardView(favorite: item)
-                    .onTapGesture {
-                        selectedUrlString = item.urlString
-                        isActive.toggle()
-                    }
-            }
-            
-            // TODO:if文使わないとURLが渡される前にSafariViewをインスタンス化しようとしてクラッシュする
-            if selectedUrlString != "" {
-                EmptyView()
-                    .fullScreenCover(isPresented: $isActive) {
-                        SafariView(urlString: selectedUrlString)
-                    }
+        GeometryReader { geometry in
+            VStack(alignment: .leading) {
+                HeaderView()
+                    .padding([.leading, .trailing, .top], 35)
+                
+                List(favorites) { item in
+                    CardView(favorite: item)
+                        .frame(height: geometry.size.height / 1.1)
+                        .onTapGesture {
+                            selectedUrlString = item.urlString
+                            isActive.toggle()
+                        }
+                }
+                
+                // TODO:if文使わないとURLが渡される前にSafariViewをインスタンス化しようとしてクラッシュする
+                if selectedUrlString != "" {
+                    EmptyView()
+                        .fullScreenCover(isPresented: $isActive) {
+                            SafariView(urlString: selectedUrlString)
+                        }
+                }
             }
         }
     }

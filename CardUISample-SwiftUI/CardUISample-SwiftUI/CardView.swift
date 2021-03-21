@@ -33,7 +33,6 @@ struct CardView: View {
         .cornerRadius(30)
         .padding()
         .shadow(radius: 10)
-        .frame(height: 400)
     }
 }
 
