@@ -14,6 +14,9 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .bold()
                 .padding([.leading, .trailing, .top], 20)
+            
+            CardView(title: "Yahoo! JAPAN", urlString: "https://www.yahoo.co.jp/")
+                .padding([.leading, .trailing], 5)
             Spacer()
         }
         
