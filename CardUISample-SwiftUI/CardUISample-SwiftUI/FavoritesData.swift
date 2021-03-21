@@ -15,11 +15,10 @@ struct Favorite: Identifiable {
 
 var favorites: [Favorite] = [
     Favorite(id: 1, title: "Google", urlString: "https://www.google.com/"),
-    Favorite(id: 2, title: "Apple", urlString: "https://www.apple.com/jp/"),
-    Favorite(id: 3, title: "Youtube", urlString: "https://www.youtube.com/"),
-    Favorite(id: 4, title: "Amazon", urlString: "https://www.amazon.co.jp/"),
-    Favorite(id: 5, title: "Twitter", urlString: "https://twitter.com/home"),
-    Favorite(id: 6, title: "Facebook", urlString: "https://www.facebook.com/")
+    Favorite(id: 2, title: "Youtube", urlString: "https://www.youtube.com/"),
+    Favorite(id: 3, title: "Amazon", urlString: "https://www.amazon.co.jp/"),
+    Favorite(id: 4, title: "Twitter", urlString: "https://twitter.com/home"),
+    Favorite(id: 5, title: "Facebook", urlString: "https://www.facebook.com/")
 ]
 
 
